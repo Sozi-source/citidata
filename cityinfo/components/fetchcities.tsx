@@ -68,7 +68,7 @@ if (error) return <p className="text red-600">Error {error.message} </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 bg-green-200 p-4 rounded-lg">
             {Array.isArray(cities) && cities.length >0?(
         cities.map((city)=>(
-            <div key={city.id} className="mb-4 p-4 border rounded-lg shadow-sm bg-gray-200 hover:shadow-lg transition-shadow duration-200
+            <div key={city.id} className="mb-4 p-4 border rounded-lg shadow-sm bg-white hover:shadow-lg transition-shadow duration-200
 ">
             <p className="text-xl font-bold text-blue-700"><strong>Name</strong>: {city.name} </p>
             <p className="text-700 text-black"><strong>City</strong>:  {city.city}-{city.country} </p>
