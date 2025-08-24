@@ -71,9 +71,9 @@ if (error) return <p className="text red-600">Error {error.message} </p>
             <div key={city.id} className="mb-4 p-4 border rounded-lg shadow-sm bg-gray-200 hover:shadow-lg transition-shadow duration-200
 ">
             <p className="text-xl font-bold text-blue-700"><strong>Name</strong>: {city.name} </p>
-            <p className="text-700"><strong>City</strong>:  {city.city}-{city.country} </p>
-            <p className="text-600"><strong>Region</strong>:  {city.region} </p>
-            <p className="text-600"><strong>Population</strong>:  {city.population} |{city.timezone} </p>
+            <p className="text-700 text-black"><strong>City</strong>:  {city.city}-{city.country} </p>
+            <p className="text-600 text-black"><strong>Region</strong>:  {city.region} </p>
+            <p className="text-600 text-black"><strong>Population</strong>:  {city.population} |{city.timezone} </p>
             
 
             </div>
