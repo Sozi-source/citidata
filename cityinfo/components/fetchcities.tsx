@@ -61,7 +61,7 @@ if (error) return <p className="text red-600">Error {error.message} </p>
                 type="text" 
                 value={search}
                 onChange={(e)=>setSearch(e.target.value)}
-                placeholder="Search a city globally" className="w-60 p-2 border rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"/>
+                placeholder="Search a city globally" className="w-full sm:w-40 md:w-80 lg:w-96 p-2 sm:p-3 border rounded-md text-gray-700 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200"/>
             </form>
         </div>
 
